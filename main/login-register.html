@@ -185,28 +185,28 @@
                     <ul class="row">
                       
                       <!-- Name -->
-                      <li class="col-md-4">
-                        <div class="radio">
-                          <input type="radio" id="free" name="member-ship">
-                          <label for="free">Coporate</label>
-                        </div>
-                      </li>
-                      <li class="col-md-4">
-                        <div class="radio">
-                          <input type="radio" id="compny" name="member-ship">
-                          <label for="compny">Company</label>
-                        </div>
-                      </li>
-                      <li class="col-md-4">
-                        <div class="radio">
-                          <input type="radio" id="profe" name="member-ship">
-                          <label for="profe">Professionals </label>
+                      <li class="col-md-12">
+                        <div class="">
+                          <label> Referral register link *
+                          <input type="text" name="first-name" value="" placeholder="" class="form-control">
+                          <a href="http://example.com/register?ref=example@example.com" target="_blank"></a>
+                          
+                        </label>
+                          
                         </div>
                       </li>
                       
+                      
                       <!-- Name -->
                       <li class="col-md-6">
-                        <label> Full Name *
+                        <label> First Name *
+                          <input type="text" name="first-name" value="" placeholder="" class="form-control">
+                        </label>
+                      </li>
+
+                      <!-- Name -->
+                      <li class="col-md-6">
+                        <label> Last Name *
                           <input type="text" name="first-name" value="" placeholder="" class="form-control">
                         </label>
                       </li>
@@ -218,18 +218,13 @@
                         </label>
                       </li>
                       
-                      <!-- Name -->
+                      <!-- User Name -->
                       <li class="col-md-6">
                         <label> User Name *
                           <input type="text" name="first-name" value="" placeholder="" class="form-control">
                         </label>
                       </li>
-                      <!-- Password -->
-                      <li class="col-md-6">
-                        <label> Password *
-                          <input type="password" name="last-name" value="" placeholder="" class="form-control">
-                        </label>
-                      </li>
+
                       <!-- Password -->
                       <li class="col-md-12">
                         <label> Country *
@@ -241,37 +236,43 @@
                           </select>
                         </label>
                       </li>
-                      <li  class="col-md-12">
-                        <h5>Payment Info</h5>
-                      </li>
-                      <li  class="col-md-8">
-                        <label> Package Info
-                          <select class="form-control">
-                            <option>Free</option>
-                            <option>Personal</option>
-                            <option>Business</option>
-                            <option>Enterprise</option>
-                            <option>Platinum</option>
-                            <option>Ultimate</option>
-                          </select>
+
+                      <!-- Password -->
+                      <li class="col-md-6">
+                        <label> Password *
+                          <input type="password" name="last-name" value="" placeholder="" class="form-control">
                         </label>
                       </li>
-                      <li  class="col-md-4">
-                        <div class="price-info"> USD <span>00.00</span> </div>
+
+                      <!-- Confirm Password -->
+                      <li class="col-md-6">
+                        <label> Confirm Password *
+                          <input type="password" name="last-name" value="" placeholder="" class="form-control">
+                        </label>
                       </li>
-                      <li  class="col-md-12">
-                        <div class="price-info margin-top-0 margin-bottom-20">
-                          <p> Tax (VAT) <span>00.00</span> </p>
-                          <p> Total Price <span>00.00</span> </p>
-                        </div>
+                      
+                      <!-- Pin Code-->
+                      <li class="col-md-12">
+                        <label> Pin Code *
+                          <input type="text" name="pin" pattern="[0-9]{4}" maxlength="4" class="form-control">
+                        </label>
                       </li>
+                      <!--check Term and conditon-->
+                     
                       <li class="col-md-12">
                         <div class="checkbox ">
                           <input id="checkbox1" type="checkbox">
-                          <label for="checkbox1"> I have read &amp; accept the Terms &amp; Conditions </label>
+                          <label for="checkbox1"> Accept the Terms &amp; Conditions </label>
                         </div>
                       </li>
                       
+                      <li class="col-md-12">
+                        <div class="checkbox ">
+                          <input id="checkbox1" type="checkbox">
+                          <label for="checkbox1"> Accept privacy &amp; policy </label>
+                        </div>
+                      </li>
+
                       <!-- LOGIN -->
                       <li class="col-md-12 text-center">
                         <button type="submit" class="btn">Register</button>
